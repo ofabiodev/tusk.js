@@ -11,9 +11,6 @@ updates:
     commit-message:
       prefix: "chore(documentation)"
       include: "scope"
-    pull-request-branch-name:
-      prefix: "deps"
-      separator: "-"
     labels:
       - "dependencies"
       - "documentation"
@@ -29,8 +26,5 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
-    pull-request-branch-name:
-      prefix: "deps"
-      separator: "-"
     labels:
       - "dependencies"
