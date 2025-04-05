@@ -1,0 +1,34 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/apps/docs"
+    schedule:
+      interval: "daily"
+    groups:
+      documentation:
+        patterns:
+          - "*"
+    commit-message:
+      prefix: "chore(documentation)"
+      include: "scope"
+    pull-request-branch-name:
+      name: "deps"
+    labels:
+      - "dependencies"
+      - "documentation"
+
+  - package-ecosystem: "npm"
+    directory: "/packages/tusk"
+    schedule:
+      interval: "daily"
+    groups:
+      tusk:
+        patterns:
+          - "*"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    pull-request-branch-name:
+      name: "deps"
+    labels:
+      - "dependencies"
