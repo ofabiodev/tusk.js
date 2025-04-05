@@ -12,7 +12,8 @@ updates:
       prefix: "chore(documentation)"
       include: "scope"
     pull-request-branch-name:
-      name: "deps"
+      prefix: "deps"
+      separator: "-"
     labels:
       - "dependencies"
       - "documentation"
@@ -29,6 +30,7 @@ updates:
       prefix: "chore"
       include: "scope"
     pull-request-branch-name:
-      name: "deps"
+      prefix: "deps"
+      separator: "-"
     labels:
       - "dependencies"
