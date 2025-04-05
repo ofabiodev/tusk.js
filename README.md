@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ofabiodev/tusk/main/.github/assets/icon.svg" alt="Icon" width="100">
+  <img src="https://raw.githubusercontent.com/ofabiodev/tusk.js/main/.github/assets/icon.svg" alt="Icon" width="100">
 </p>
 
-<h1 align="center">Tusk</h1>
+<h1 align="center">Tusk.js</h1>
 
 <p align="center">
   <strong>Powerful Prototype Patching for JavaScript/TypeScript</strong>
@@ -16,6 +16,6 @@
 
 ## 🔗 Links
 - **Website:** [tusk.js.org](https://tusk.js.org)
-- **Npm:** [Tusk on Npm](https://npmjs.com/package/tusk)
-- **GitHub:** [ofabiodev/tusk](https://github.com/ofabiodev/tusk)
+- **Npm:** [Tusk on Npm](https://npmjs.com/package/tusk.js)
+- **GitHub:** [ofabiodev/tusk.js](https://github.com/ofabiodev/tusk.js)
   
