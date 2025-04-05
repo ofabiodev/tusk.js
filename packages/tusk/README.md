@@ -3,20 +3,20 @@
 > This package is no longer maintained. Please migrate to [`tusk.js`](https://github.com/ofabiodev/tusk.js).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ofabiodev/tusk/main/.github/assets/icon.svg" alt="Tusk" width="200">
+  <img src="https://raw.githubusercontent.com/ofabiodev/tusk.js/main/.github/assets/icon.svg" alt="Tusk" width="200">
 </p>
 
-<h1><center>Tusk</center></h1>
+<h1><center>Tusk.js</center></h1>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/tusk" rel="noopener nofollow ugc">
-    <img alt="NPM Version" src="https://img.shields.io/npm/v/tusk?style=flat-square&labelColor=%23a56953&color=%23a56953">
+  <a href="https://www.npmjs.com/package/tusk.js" rel="noopener nofollow ugc">
+    <img alt="NPM Version" src="https://img.shields.io/npm/v/tusk.js?style=flat-square&labelColor=%23a56953&color=%23a56953">
   </a>
-  <a href="https://www.npmjs.com/package/tusk" rel="noopener nofollow ugc">
-    <img alt="NPM Downloads" src="https://img.shields.io/npm/dy/tusk?style=flat-square&labelColor=%23a56953&color=%23a56953">
+  <a href="https://www.npmjs.com/package/tusk.js" rel="noopener nofollow ugc">
+    <img alt="NPM Downloads" src="https://img.shields.io/npm/dy/tusk.js?style=flat-square&labelColor=%23a56953&color=%23a56953">
   </a>
-  <a href="https://github.com/ofabiodev/tusk" rel="noopener nofollow ugc">
-    <img alt="Codecov" src="https://img.shields.io/codecov/c/github/ofabiodev/tusk?style=flat-square&labelColor=%23a56953&color=%23a56953">
+  <a href="https://github.com/ofabiodev/tusk.js" rel="noopener nofollow ugc">
+    <img alt="Codecov" src="https://img.shields.io/codecov/c/github/ofabiodev/tusk.js?style=flat-square&labelColor=%23a56953&color=%23a56953">
   </a>
 </p>
 
@@ -35,7 +35,7 @@ Tusk allows you to temporarily modify existing methods while keeping the origina
 <h2><center>Monkey Patching</center></h2>
 
 ```ts
-import { patch, unpatch } from "tusk";
+import { patch, unpatch } from "tusk.js";
 
 const logger = {
   log: (msg: string) => console.log(msg),
@@ -66,16 +66,16 @@ To install Tusk, run one of the following commands:
 
 ```bash
 # Using npm
-npm install tusk
+npm install tusk.js
 
 # Using pnpm
-pnpm add tusk
+pnpm add tusk.js
 
 # Using yarn
-yarn add tusk
+yarn add tusk.js
 
 # Using Bun
-bun add tusk
+bun add tusk.js
 ```
 
 <h2><center>F.A.Q. 🤔</center></h2>

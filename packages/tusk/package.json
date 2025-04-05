@@ -1,5 +1,5 @@
 {
-  "name": "tusk",
+  "name": "tusk.js",
   "version": "1.0.0",
   "description": "Tusk lets you carve into JavaScript, TypeScript, and beyond with raw power.",
   "main": "build/index.js",
